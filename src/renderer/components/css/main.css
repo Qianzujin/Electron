@@ -1,0 +1,97 @@
+.home {
+    text-align: center;
+}
+
+/*顶部文字样式*/
+.top-title {
+    margin: 25px 0px 0px -70px;
+}
+
+/*顶部搜索框样式*/
+.top-sereach {
+    /*上 左  下* 右*/
+    margin: 15px 0px 0px -70px;
+    width: 80px;
+}
+
+/**
+顶部内容样式
+**/
+.top-content {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid;*/
+}
+
+/**顶部图标样式**/
+.logo-small-left {
+    height: 40px;
+    width: 40px;
+    margin: 15px 20px 5px 70px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 20%;
+}
+
+/**
+分割线样式
+**/
+.link-top {
+    width: 100%;
+    height: 2px;
+    border-top: solid rgba(160, 165, 165, 0.76) 1px;
+}
+
+/**左上electron logo样式**/
+.logo-top-left {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.gradlinear {
+    background-color: red;
+    /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom left, red, yellow);
+    height: auto;
+}
+
+/**
+控制文字大小，同时居中显示
+**/
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.body-bg-linear {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+    /*横向渐变*/
+    /*background-image: linear-gradient(to right, rgb(44, 214, 255), rgb(237, 211, 255));*/
+    /*斜向渐变background-image: linear-gradient(to left right, rgb(63, 254, 196), rgb(255, 238, 99));*/
+    /* 纵向渐变background-image: linear-gradient(#e66465, #9198e5);*/
+
+}
